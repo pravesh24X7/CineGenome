@@ -44,15 +44,8 @@ To measure recommendation quality, the system uses:
 
 Evaluates how many of the top-K recommended movies are relevant.
 
-[
-Precision@K = \frac{\text{Relevant Items in Top K}}{K}
-]
-
 ### 🔹 MRR@K (Mean Reciprocal Rank)
 
 Measures how early the first relevant item appears in the recommendation list.
-
-[
-MRR@K = \frac{1}{|Q|} \sum_{i=1}^{|Q|} \frac{1}{rank_i}
 ]
 
